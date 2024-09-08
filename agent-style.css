@@ -1,0 +1,79 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+
+header {
+    background-color: #1976d2;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+main {
+    margin: 40px 0;
+}
+
+.agent-contact h2, .preparation-tips h2 {
+    font-size: 2rem;
+    color: #1976d2;
+    margin-bottom: 10px;
+}
+
+.agent-contact ul, .preparation-tips ul {
+    list-style: none;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+.agent-contact ul li, .preparation-tips ul li {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.online-help h3 {
+    font-size: 1.5rem;
+    color: #1976d2;
+    margin-top: 30px;
+}
+
+.online-help p a {
+    color: #1976d2;
+    text-decoration: none;
+}
+
+.online-help p a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #1976d2;
+    color: white;
+}

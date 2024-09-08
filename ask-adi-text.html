@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask Aliza (Text) - AI Chatbot</title>
+    <link rel="stylesheet" href="chatbot-style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ask Aliza (Text) - AI Chatbot</h1>
+            <p>Type your question below and Ask Aliza will help you with your tax or super queries.</p>
+        </header>
+
+        <main>
+            <section class="chatbot">
+                <div id="chatbot-window">
+                    <div id="chatbot-messages">
+                        <div class="bot-message">Hi, how can I assist you today?</div>
+                    </div>
+                    <div class="chatbot-input">
+                        <input type="text" id="chat-input" placeholder="Type your question here..." />
+                        <button id="send-chat" onclick="sendMessage()">Send</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Australian Taxation Office | Ask Aliza (Text)</p>
+        </footer>
+
+        <script src="chatbot.js"></script>
+    </div>
+</body>
+</html>
